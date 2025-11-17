@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/steamsoftware">
       <Routes>
         <Route
           path="/login"
