@@ -1,0 +1,16 @@
+[
+  {
+    "id": "user-001",
+    "userId": "admin",
+    "password": "admin123",
+    "name": "Administrator",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "user-002",
+    "userId": "student1",
+    "password": "student123",
+    "name": "Student One",
+    "createdAt": "2024-01-02T00:00:00Z"
+  }
+]

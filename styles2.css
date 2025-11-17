@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+nav {
+    background-color: #fff;
+    font-weight:1000;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 160px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 16px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    width: 1182px; /* 設置固定的寬度 */
+    height: auto; /* 設置固定的高度 */
+    margin-left: auto; /* 水平居中 */
+    margin-right: auto; /* 水平居中 */
+    overflow: auto; /* 如果內容超出，添加滾動條 */
+}
+
+.hero {
+}
+
+.hero img {
+    width: 1104px; /* 設置自訂寬度 */
+    height: auto; /* 保持縱橫比 */
+    margin: 10px; /* 保持上下間距 */
+    border-radius: 8px; /* 可選：添加圓角 */
+    max width: 1102px;
+}
+
+
+.objective {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+     width: 1182px; /* 設置固定的寬度 */
+    height: auto; /* 設置固定的高度 */
+    margin-left: auto; /* 水平居中 */
+    margin-right: auto; /* 水平居中 */
+}
+
+h4 {
+    font-size: 18px; /* 設置新的字體大小 */
+    font-weight: 600; /* 保持粗體 */
+    color: #000000; /* 黑色，與導航一致 */
+    margin-bottom: 15px; /* 與下方內容保持適當間距 */
+}
+
+h1 {
+    font-size: 32px; /* 設置新的字體大小 */
+    font-weight: 1000; /* 保持粗體 */
+    color: #000000; /* 黑色，與導航一致 */
+}
+
+
+h2 {
+    font-size: 28px; /* 設置新的字體大小 */
+    font-weight: 700; /* 保持粗體 */
+    color: #000000; /* 黑色，與導航一致 */
+}
+
+.objective p {
+    margin-top: 15px; /* 增加標題和文字之間的間距 */
+    border-top: 1px solid #000000; /* 添加水平線 */
+    padding-top: 10px; /* 文字與線之間的內距 */
+}
+
+.team-role h1 {
+    margin-top: 15px; /* 增加標題和文字之間的間距 */
+    border-top: 1px solid #000000; /* 添加水平線 */
+}
+
+.pain-point p {
+    margin-top: 15px; /* 增加標題和文字之間的間距 */
+    border-top: 1px solid #000000; /* 添加水平線 */
+    padding-top: 10px; /* 文字與線之間的內距 */
+}
+
+.pain-point img {
+   width: 1098px; /* 設置自訂寬度 */
+    height: auto; /* 保持縱橫比 */
+       margin: 24px; /* 保持上下間距 */
+}
+
+.user-research h1 {
+    margin-top: 15px; /* 增加標題和文字之間的間距 */
+    border-top: 1px solid #000000; /* 添加水平線 */
+}
+
+.user-research h4 {
+}
+
+
+.Challenge h1 {
+    margin-top: 15px; /* 增加標題和文字之間的間距 */
+    border-top: 1px solid #000000; /* 添加水平線 */
+}
+
+.Solution h1 {
+    margin-top: 15px; /* 增加標題和文字之間的間距 */
+    border-top: 1px solid #000000; /* 添加水平線 */
+}
+
+.sketch-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.task-flow h1 {
+ margin-top: 15px; /* 增加標題和文字之間的間距 */
+ border-top: 1px solid #000000; /* 添加水平線 */
+}
+
+.task-flow img {
+    width: 100%;
+}
+
+.challenge h1 {
+ margin-top: 15px; /* 增加標題和文字之間的間距 */
+ border-top: 1px solid #000000; /* 添加水平線 */
+}
+
+.learning h1{
+    margin-top: 15px; /* 增加標題和文字之間的間距 */
+    border-top: 1px solid #000000; /* 添加水平線 */
+}
+
+.solution h3 {
+    margin-top: 20px;
+}
+
+.solution ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}

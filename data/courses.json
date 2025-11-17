@@ -1,0 +1,34 @@
+[
+  {
+    "id": "course-001",
+    "title": "Introduction to AI",
+    "category": "AI Programming",
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "description": "Learn the basics of artificial intelligence"
+  },
+  {
+    "id": "course-002",
+    "title": "Machine Learning Fundamentals",
+    "category": "AI Programming",
+    "duration": "6 weeks",
+    "level": "Intermediate",
+    "description": "Understand machine learning concepts and algorithms"
+  },
+  {
+    "id": "course-003",
+    "title": "Basic Physics",
+    "category": "STEM",
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "description": "Explore the fundamentals of physics"
+  },
+  {
+    "id": "course-004",
+    "title": "Robotics 101",
+    "category": "Robotics",
+    "duration": "7 weeks",
+    "level": "Beginner",
+    "description": "Introduction to robotics and automation"
+  }
+]

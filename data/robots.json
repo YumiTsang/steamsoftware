@@ -1,0 +1,23 @@
+[
+  {
+    "id": "robot-001",
+    "name": "Robot A",
+    "model": "RX-100",
+    "status": "available",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "robot-002",
+    "name": "Robot B",
+    "model": "RX-200",
+    "status": "available",
+    "createdAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "id": "robot-003",
+    "name": "Robot C",
+    "model": "RX-300",
+    "status": "available",
+    "createdAt": "2024-01-03T00:00:00Z"
+  }
+]

@@ -1,0 +1,30 @@
+/* Custom styles to match the design */
+body {
+    font-family:<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito"> /* Change to match Figma font, e.g., via Google Fonts */
+}
+
+.hero {
+    background-color: #6399f0; /* Adjust to exact blue from image */
+    border-radius: 10px; /* Rounded corners like in the image */
+    margin: 20px auto;
+    max-width: 1400px;
+    H1 {
+        font-size: 40px;
+    }
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    height: 458px; 
+    max-width: 588px
+    overflow: hidden;
+}
+
+.btn-primary {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #6399f0;
+}

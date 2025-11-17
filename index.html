@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumi's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-bs-toggle="dropdown">Portfolio</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Project 1</a></li> <!-- Add links as needed -->
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Hello, I'm Yumi</h1>
+                    <h2>a UX/UI Product Designer based in Hong Kong</h2>
+                    <p>As a Product UX/UI Designer specializing in B2B solutions, I design intuitive internal software and systems. I translate management requirements into user-centered solutions, enhancing usability and streamlining workflows through user research and iterative design.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="C:\Users\Yumi\Downloads\portfolio_web\access\hero-illustration.png" alt="Illustration" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\Yumi\Downloads\portfolio_web\access\ai-ecommerce.png" class="card-img-top" alt="AI E-commerce Platform">
+                        <div class="card-body">
+                            <h5 class="card-title">AI E-commerce Platform</h5>
+                            <p class="card-text">Retail & E-Commerce</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\Yumi\Downloads\portfolio_web\access\esg-portal.png" class="card-img-top" alt="ESG Data Collection Portal">
+                        <div class="card-body">
+                            <h5 class="card-title">ESG Data Collection Portal</h5>
+                            <p class="card-text">Financial Service, Technology, and Consulting</p>
+                            <a href="#" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards for the other two projects -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-4">
+        <div class="container text-center">
+            <h4>Contact</h4>
+            <p>📧 yumitsang0303@gmail.com</p>
+            <a href="#" class="text-white mx-2">Home</a>
+            <a href="#" class="text-white mx-2">Resume</a>
+            <a href="#" class="text-white mx-2">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
