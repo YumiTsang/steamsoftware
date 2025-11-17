@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/steamsoftware/static/css/main.46859760.css",
-    "main.js": "/steamsoftware/static/js/main.d71401ab.js",
-    "static/js/453.117b0875.chunk.js": "/steamsoftware/static/js/453.117b0875.chunk.js",
-    "index.html": "/steamsoftware/index.html",
-    "main.46859760.css.map": "/steamsoftware/static/css/main.46859760.css.map",
-    "main.d71401ab.js.map": "/steamsoftware/static/js/main.d71401ab.js.map",
-    "453.117b0875.chunk.js.map": "/steamsoftware/static/js/453.117b0875.chunk.js.map"
+    "main.css": "./static/css/main.46859760.css",
+    "main.js": "./static/js/main.5da5b76c.js",
+    "static/js/453.117b0875.chunk.js": "./static/js/453.117b0875.chunk.js",
+    "index.html": "./index.html",
+    "main.46859760.css.map": "./static/css/main.46859760.css.map",
+    "main.5da5b76c.js.map": "./static/js/main.5da5b76c.js.map",
+    "453.117b0875.chunk.js.map": "./static/js/453.117b0875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46859760.css",
-    "static/js/main.d71401ab.js"
+    "static/js/main.5da5b76c.js"
   ]
 }
